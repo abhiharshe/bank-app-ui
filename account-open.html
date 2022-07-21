@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      img {
+        width: 100%;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0 auto;
+        padding: 0 auto;
+      }
+      .header {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        overflow: hidden;
+        background-color: rgb(240, 240, 240);
+      }
+      .brand-block {
+        padding: 15px;
+        flex: 9;
+        display: flex;
+        flex-direction: row;
+      }
+      .session-block {
+        flex: 3;
+        background-color: aquamarine;
+        padding: 15px;
+        border-radius: 10px;
+        align-self: stretch;
+        text-align: right;
+      }
+      .brand-block .brand-logo {
+        flex: 1;
+      }
+      .brand-block .brand-name {
+        flex: 11;
+        font-size: 2rem;
+        margin-right: 15px;
+        margin-left: 15px;
+      }
+      @media screen and (max-width: 991px) {
+        .header {
+          flex-direction: column;
+          align-items: stretch;
+        }
+        .brand-block,
+        .session-block {
+          flex: 12;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="brand-block">
+        <div class="brand-logo">
+          <img src="images/logo.png" alt="" />
+        </div>
+        <div class="brand-name">
+          Sahakarmarharshi Hon. Jaywantrao Bhosale (Appa) Nagari Sahakari
+          Patsanstha
+        </div>
+      </div>
+      <div class="session-block">
+        <div>User <span class="usr-name">Jeo Bradley</span></div>
+        <div>
+          <span class="sess-date">Monday, 15 Aug 2022, 05:03 PM </span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

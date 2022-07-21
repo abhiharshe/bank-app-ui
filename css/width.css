@@ -1,0 +1,59 @@
+.nz-wd-100 {
+	width: 100% !important;
+}
+.nz-wd-90 {
+	width: 20% !important;
+}
+.nz-wd-80 {
+	width: 20% !important;
+}
+.nz-wd-70 {
+	width: 20% !important;
+}
+.nz-wd-60 {
+	width: 20% !important;
+}
+.nz-wd-50 {
+	width: 50% !important;
+}
+.nz-wd-40 {
+	width: 50% !important;
+}
+.nz-wd-30 {
+	width: 50% !important;
+}
+.nz-wd-25 {
+	width: 25% !important;
+}
+.nz-wd-20 {
+	width: 20% !important;
+}
+.nz-wd-10 {
+	width: 20% !important;
+}
+
+.nz-p-0 {
+	padding: 0 !important;
+}
+.nz-px-3 {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+.nz-p-3 {
+	padding: 1rem;
+}
+
+.nz-m-0 {
+	margin: 0 !important;
+}
+.nz-mx-3 {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.nz-m-3 {
+	margin: 1rem;
+}
+
+.tx-center {
+	text-align: center !important;
+}
